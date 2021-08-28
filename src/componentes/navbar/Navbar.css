@@ -1,0 +1,42 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
+
+li {  
+  
+  font-family: Sorts Mill Goudy;
+  font-size: 15px;
+  
+  
+  }
+
+li.nav-li  {
+  border-radius: 3px;
+  padding: 10px 0;
+  
+}
+
+@media only screen and (max-width: 600px) {
+
+  .main {
+      display:flex;
+      flex-direction: column;        
+      justify-content: center;
+      align-items: center;
+      margin-left: 0 auto;
+  }
+
+  li.nav-li a {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 15px !important;
+    margin-left: 0 auto;
+    align-items: center;
+
+  }
+
+  .navbar ul {
+      display: flex;
+      flex-direction: row;
+  }
+}

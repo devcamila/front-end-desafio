@@ -1,0 +1,56 @@
+:root {
+    --cinza:#f1f1f1;
+    --cinza-escuro:#EBEBEB;
+    --preto:#231F20;
+    --verde: #9AB48F;
+    }
+    
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.footer-ul {
+    display: flex;
+    flex-direction: row;
+     
+   
+
+}
+.footer-ul li {
+    font-family: Sorts Mill Goudy;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    border-left: 2px solid var(--verde);
+    text-decoration: none;
+    
+    }
+
+.footer-ul li:first-child {
+    border-left: none;
+}
+
+.footer-ul li a {
+    background-color: transparent;
+    color: var(--preto);
+}
+
+.footer-ul li a:hover {
+    color: var(--verde);
+    background-color: transparent;
+}
+
+a {
+    background-color: transparent;
+}
+
+footer {
+    margin-bottom: 9px;
+    margin-top: 50px;
+  }

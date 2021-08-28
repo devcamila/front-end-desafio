@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+
+html {
+    height: 100vh;
+    background-color: var(--cinza);
+}
+
+.header-cv {
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+.main {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar {
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.container {
+   background-color:var(--cinza) ;
+   padding: 30px;
+   box-shadow:  0 0 1em rgba(20, 20, 20, 0.081);
+   border-radius: 3px;
+   width: 60%;
+}
+
+.textos, .titulo, .text {
+    font-family: Sorts Mill Goudy;
+    justify-content: center;
+    align-items: center;     
+}
+
+.textos {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+
+.titulo {    
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--verde);      
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 5px;    
+    box-shadow: inset 0px 11px 8px -10px #CCC,
+    inset 0px -11px 8px -10px #CCC; 
+    border-radius: 1px;
+}
+
+.text {
+    font-size: 18px;
+    text-align: center;
+    color: var(--preto);
+    padding: 10px 0;
+}
+
+.form {  
+    padding:10px;
+      
+}
+   
+.field {
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    font-family: Sorts Mill Goudy;
+    font-weight: bold;
+    color: var(--preto);
+    margin-left: 15px;
+  
+}
+span {
+    display: block;
+    color: rgb(91, 48, 48);
+    font-family: Sorts Mill Goudy;
+    font-size: 12px; 
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;      
+}
+
+.campo-name, .campo-email {
+   width: 300px;
+}
+
+input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-top: 5px;
+    margin-left: 15px;
+    border: 2px solid var(--verde);
+    font-size: 15px;
+    color: #444;
+    transition: border-color 0.2s;
+  }
+  
+  input:focus {
+    border-color: var(--preto);
+  }
+
+#date.campo-date {
+    padding: 9px 16px;
+}
+  
+  button {
+    display: block;
+    background:var(--verde);
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color:var(--preto);
+    color: var(--verde);
+    transition-duration: 300ms;
+  }
+
+  .footer {
+      padding: 10px;
+      margin-bottom: 10px;
+  }
+
+@media only screen and (max-width: 600px) {
+
+    .main {
+        display:flex;
+        flex-direction: column;        
+        justify-content: center;
+        align-items: center;
+        margin-left: 0 auto;
+    }
+
+    li.nav-li a {
+      display: flex;
+      flex-direction: row;
+      padding: 5px 15px !important;
+      justify-content: center;
+      align-items: center;
+
+    }
+  
+    .navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .campo-name, .campo-email {
+        width: 100%;
+     }
+
+    input {
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+    }
+
+  }

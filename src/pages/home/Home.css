@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+:root {
+  --cinza:#f1f1f1;
+  --cinza-escuro:#EBEBEB;
+  --preto:#231F20;
+  --verde: #9AB48F;
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+  }
+  
+html {
+    height: 100vh;
+    background-color: var(--cinza);
+}
+
+.header-home {
+    padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+.main-home {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar {
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.container-home {
+   background-color:var(--cinza) ;
+   padding: 30px;
+   box-shadow:  0 0 1em rgba(20, 20, 20, 0.081);
+   border-radius: 3px;
+   width: 60%;
+}
+
+.titulo {    
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--verde);      
+    text-align: center;
+    padding: 5px 0;
+    margin-bottom: 5px;    
+    box-shadow: inset 0px 11px 8px -10px #CCC,
+    inset 0px -11px 8px -10px #CCC; 
+    border-radius: 1px;
+}
+
+.text {
+    font-size: 18px;
+    text-align: center;
+    color: var(--preto);
+    padding: 10px 0;
+}
+
+.imagens {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0;
+}
+
+ img {
+   width: 200px;
+   
+ }
+

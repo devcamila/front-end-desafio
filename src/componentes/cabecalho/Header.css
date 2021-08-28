@@ -1,0 +1,14 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header {
+  height: 150px;
+}
+     
+  
+.header-logo {
+  height: 100%; 
+  }
