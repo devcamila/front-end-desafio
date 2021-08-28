@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: `process.env.REACT_API_URL/cadastro`,
+    baseURL: 'https://back-end-desafio.herokuapp.com',
 })
 
 export default api;
