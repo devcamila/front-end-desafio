@@ -1,7 +1,8 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL: 'https://backend-jobs-net.herokuapp.com',
+    baseURL: 'https://back-end-desafio.herokuapp.com/',
 })
 
 export default api;
+
