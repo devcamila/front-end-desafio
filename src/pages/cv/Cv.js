@@ -36,6 +36,8 @@ function Cv() {
         phone: Yup.string().required('* Campo Celular é obrigatório'),
         office: Yup.string(),
         occupation: Yup.string().required('* Campo Profissão é obrigatório'),
+        cnh: Yup.string(),
+        auto: Yup.string(),
         address: Yup.object().shape({
           zipcode: Yup.string().matches((/^\d{8}$/) | (/^\d{5}-\d{3}$/), '* Campo CEP obrigatório'),
           street: Yup.string().required('* Campo Logradouro é obrigatório'),
@@ -65,6 +67,8 @@ function Cv() {
         phone: data.phone,
         office: data.office,
         occupation: data.occupation,
+        cnh: data.cnh,
+        auto: data.auto,
         zipcode: data.address.zipcode,
         street: data.address.street,
         number: data.address.number,
@@ -159,6 +163,10 @@ function Cv() {
                 <Input name="phone" type="tel" label="Celular" className="campo-cel" />
                 <Input name="office" type="text" label="Cargo Pretendido" className="campo-office" />
                 <Input name="occupation" type="text" label="Profissão" className="campo-occupation" />
+              </fieldset>
+              <fieldset className="field">
+                <Input name="cnh" type="text" label="Possui CNH?" className="campo-cnh" />
+                <Input name="auto" type="text" label="Possui Veículo?" className="campo-auto" />
               </fieldset>
               <Scope path="address">
                 <fieldset className="field">

@@ -24,7 +24,7 @@ function Navbar() {
               </NavLink>
               </li>
 
-            {/*VAGAS*/}
+            {/* VAGAS
              <li className="nav-li">
               <NavLink to = '/vagas'
               style={{
@@ -37,7 +37,7 @@ function Navbar() {
                 color: '#fff'    
             }}> Vagas         
               </NavLink>
-              </li>
+              </li> */}
 
             {/*CV*/}
             <li className="nav-li">
@@ -73,7 +73,7 @@ function Navbar() {
               </NavLink>
               </li>
 
-              {/*FALE CONOSCO*/}
+              {/* FALE CONOSCO
              <li className="nav-li">
               <NavLink to = '/fale-conosco'
               style={{
@@ -87,7 +87,7 @@ function Navbar() {
             }}         
              > Contato      
               </NavLink>
-              </li>
+              </li> */}
           </ul>
         </nav>
       </div>

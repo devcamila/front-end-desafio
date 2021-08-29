@@ -18,11 +18,11 @@ function Home() {
       <header className="header-home">
         <Header />
       </header>
-      <div className="main-home">
+      <div className="main">
         <div className="navbar">
           <Navbar />
         </div>
-        <div className="container-home">
+        <div className="container">
           <div className="textos-home">
             <h1 className="titulo">Empresas Parceiras</h1>
           </div>

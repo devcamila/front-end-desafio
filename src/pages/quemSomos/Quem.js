@@ -12,15 +12,18 @@ function QuemSomos() {
       <header className="header-home">
         <Header />
       </header>
-      <div className="main-home">
+      <div className="main">
         <div className="navbar">
           <Navbar />
         </div>
-        <div className="container-home">
+        <div className="container">
           <div className="textos-home">
-            <h1 className="titulo">Empresas Parceiras</h1>
+            <h1 className="titulo">Um pouco sobre o projeto</h1>
             <p className="text">
-              Prencha seu dados para se registrar em nosso banco de talentos. Surgindo uma vaga com seu perfil, entraremos em contato.
+              Esse site foi feito para o projeto final do curso da Gama Academy e a Ambev Tech.
+              Foi extremamente desafiador todo o caminho mas muito gratificante.
+              O intuito é criar um formulário que envie os dados dos candidatos para um banco de dados.
+              Ainda, quero fazer algumas implementações no projeto, aparando pequenas arestas e adicionando outras funcionalidades.
             </p>
           </div>
           <div>
@@ -28,7 +31,7 @@ function QuemSomos() {
           </div>
         </div>
       </div>
-      <footer>
+      <footer className="footer-quem">
         <Footer />
       </footer>
     </div>

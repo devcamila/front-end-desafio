@@ -14,10 +14,10 @@ function Routes() {
         <BrowserRouter>
             <Switch >]
             <Route exact path ={['', '/']} component ={Home} /> 
-            <Route path = "/vagas" component = {Vagas} />
+            {/* <Route path = "/vagas" component = {Vagas} /> */}
             <Route path = "/curriculo" component = { Cv } />
             <Route path = "/quem-somos" component = {Quem} />
-            <Route path = "/fale-conosco" component = {Fale} />
+            {/* <Route path = "/fale-conosco" component = {Fale} /> */}
             </Switch>
         </BrowserRouter>
     );
