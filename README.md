@@ -1,7 +1,7 @@
 ### 🛠 Site Jobs-NET 
 Projeto desenvolvido no curso Gama Academy -Start Tech. <br />
 Foi utilizado React.js, Node.js e o banco PostgreSQl. <br />
-Ainda, irei aprimorá-lo e apanhar pequenas arestras.
+Ainda, irei aprimorá-lo e aparar pequenas arestras.
  <br />
 
 ---
